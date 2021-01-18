@@ -1,7 +1,7 @@
 const help = (prefix) => {
 	return `> *BOT HYPE COMANDOS* 😳 <
 
-> 🔰 Figurinhas 🔰<
+> 🎨 Figurinhas 🎨<
 
 comando : *${prefix}sticker* or *${prefix}stiker*
 desc : converter imagem / gif / vídeo em adesivo
@@ -16,12 +16,12 @@ comando : *${prefix}tsticker* or *${prefix}tstiker*
 desc : converter texto em adesivo
 uso : *${prefix}tsticker text in here*\n
 
-grupσ dσ вσt : https://chat.whatsapp.com/EUiQa3aPdHd59thGjpAxrL
+grupσ dσ вσt : https://chat.whatsapp.com/JlP3KtMS9esITV937kEJn9
 
-> 🔰𝗠𝗲𝗺𝗲 𝗖𝗼𝗺𝗮𝗻𝗱𝗼𝘀🔰<
+> ⚙️ 𝗠𝗲𝗺𝗲 𝗖𝗼𝗺𝗮𝗻𝗱𝗼𝘀 ⚙️<
 
 comando : *${prefix}meme*
-desc : imagens aleatórias de meme [english]
+desc : imagens aleatórias de meme [Portuguese]
 uso : apenas envie o comando\n
 comando : *${prefix}memeindo*
 desc : imagens aleatórias de meme [indo]
@@ -29,7 +29,7 @@ uso : apenas envie o comando\n
 
 ɪɴsᴛᴀɢʀᴀᴍ : https://www.instagram.com/pabliim.ip?r=nametag
 
-> 🔰𝗢𝘂𝘁®𝗼𝘀 𝗖𝗼𝗺𝗮𝗻𝗱𝗼𝘀🔰<
+> ✨𝗢𝘂𝘁®𝗼𝘀 𝗖𝗼𝗺𝗮𝗻𝗱𝗼𝘀✨<
 
 comando : *${prefix}gtts*
 desc : converter texto em fala/audio
