@@ -118,7 +118,7 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: '⌛ espera ,se não fizer tente de novo ⌛',
+				wait: '⌛ espera estou processando,se não fizer tente de novo ⌛',
 				success: '✔️ funcionou ✔️',
 				error: {
 					stick: '❌ Falha, ocorreu um erro ao converter a imagem em um adesivo ❌',
@@ -345,7 +345,7 @@ async function starts() {
 					})
 					break
 				case 'nsfwloli':
-					if (!isNsfw) return reply('❌ *FALSO* ❌')
+					if (!isNsfw) return reply('❌ *TA QUERENDO VER LOLI? ALO FBI* ❌')
 					loli.getNSFWLoli(async (err, res) => {
 						if (err) return reply('❌ *ERRO* ❌')
 						buffer = await getBuffer(res.url)
