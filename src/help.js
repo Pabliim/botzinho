@@ -16,7 +16,7 @@ comando : *${prefix}tsticker* or *${prefix}tstiker*
 desc : converter texto em adesivo
 uso : *${prefix}tsticker text in here*\n
 
-grupσ dσ вσt : https://chat.whatsapp.com/KMUVRTxmpBb5qv7frj6b75
+grupσ dσ вσt : https://chat.whatsapp.com/EUiQa3aPdHd59thGjpAxrL
 
 > 🔰𝗠𝗲𝗺𝗲 𝗖𝗼𝗺𝗮𝗻𝗱𝗼𝘀🔰<
 
