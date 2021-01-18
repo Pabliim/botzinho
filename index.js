@@ -70,7 +70,7 @@ async function starts() {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
 				teks = `Ola @${num.split('@')[0]}\nBem vindo a Este Grupo *${mdata.subject}*
-				digite .help `
+				Digite .help `
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
@@ -118,7 +118,7 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: '⌛ espera estou processando,se não fizer tente de novo ⌛',
+				wait: '*⌛ espera estou processando,se não fizer tente de novo*',
 				success: '✔️ funcionou ✔️',
 				error: {
 					stick: '❌ Falha, ocorreu um erro ao converter a imagem em um adesivo ❌',
@@ -128,13 +128,13 @@ async function starts() {
 					group: '❌ Este comando só pode ser usado em grupos! ❌',
 					ownerG: '❌ Este comando só pode ser usado pelo grupo proprietário! ❌',
 					ownerB: '❌ Este comando só pode ser usado pelo proprietário do bot! ❌',
-					admin: '❌ Este comando só pode ser usado por administradores de grupo! ❌',
-					Badmin: '❌ Este comando só pode ser usado quando o bot se torna administrador! ❌'
+					admin: '❌ Este comando só pode ser usado por administradores de grupo,seu membro comunkkj! ',
+					Badmin: '❌ DA ADM PRO BOT TIO! '
 				}
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["63991084396@s.whatsapp.net"] // replace this with your number
+			const ownerNumber = ["+5563991084396@s.whatsapp.net"] // replace this with your number
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -344,8 +344,9 @@ async function starts() {
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'pronto ! esta e sua Loli'})
 					})
 					break
-				case 'nsfwloli':
-					if (!isNsfw) return reply('❌ *TA QUERENDO VER LOLI? ALO FBI* ❌')
+				case 'dono':
+					if (!isNsfw) return reply('*Dono do Bot* : wa.me/+5563991084396\n
+*Instagram* :\n https://www.instagram.com/pabliim.ip?r=nametag`')
 					loli.getNSFWLoli(async (err, res) => {
 						if (err) return reply('❌ *ERRO* ❌')
 						buffer = await getBuffer(res.url)
@@ -378,7 +379,7 @@ async function starts() {
 					}
 					reply(teks.trim())
 					break
-				case 'dono': 
+				case 'donoa': 
 					me = client.user
 					uptime = process.uptime()
 					teks = `*Pablo o brabo :*\n
