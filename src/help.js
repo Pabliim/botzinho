@@ -116,8 +116,7 @@ nota : Este comando pode ser usado se você for um administrador de grupo
 command : *.simih*
 desc : ative o modo simi no grupo isso buga
 usage : *.simih 1* to activate simi mode and *.simih 0* to deactivate simi mode
-note : comando Simi inútil so serve pra buga o Grupo 
-
+note : comando Simi inútil so serve pra buga o Grupo`
 }
 
 exports.help = help
