@@ -1,8 +1,6 @@
 const help = (prefix) => {
 	return `> *BOT HYPE COMANDOS* 😳 <
 
-> *BOT HYPE COMANDOS* 😳 <
-
 *⚠️ NAO LIGUE ! SEM SPAM!!! ⚠️*
 *SOMENTE USAR NO GRUPO OU BLOCK*
 
