@@ -1,7 +1,6 @@
 const help = (prefix) => {
 	return `> *BOT HYPE COMANDOS* 😳 <
 
-⚙️ Bot Hype Menu ⚙️
 ┏━━━━━━━━━━━━━━━━━━━━┓
 ┃ *⚠️ NAO LIGUE ! SEM SPAM!!! ⚠️*
 ┃ *SOMENTE USAR NO GRUPO OU BLOCK*
