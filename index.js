@@ -344,9 +344,8 @@ async function starts() {
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'pronto ! esta e sua Loli'})
 					})
 					break
-				case 'dono':
-					if (!isNsfw) return reply('*Dono do Bot* : wa.me/+5563991084396\n
-*Instagram* :\n https://www.instagram.com/pabliim.ip?r=nametag`')
+				case 'nsfwloli':
+					if (!isNsfw) return reply('PARA DE SER TARADO E SEGUE O MEU DONO NO INSTA, @PABLIIM.IP')
 					loli.getNSFWLoli(async (err, res) => {
 						if (err) return reply('❌ *ERRO* ❌')
 						buffer = await getBuffer(res.url)
