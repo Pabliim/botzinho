@@ -182,6 +182,13 @@ async function starts() {
 					buffer = await getBuffer(me.imgUrl)
 					client.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
+				case 'dono':
+					me = client.user
+					uptime = process.uptime()
+					teks = `*Dono Nome: Pablo* : \n*Numero dono* : @+5563991084396`
+					buffer = await getBuffer(me.imgUrl)
+					client.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
+					break
 				case 'blocklist':
 					teks = 'This is list of blocked number :\n'
 					for (let block of blocked) {
