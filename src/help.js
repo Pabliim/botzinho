@@ -1,10 +1,9 @@
 const help = (prefix) => {
 	return `> *BOT HYPE COMANDOS* 😳 <
 
-*⚠️ NAO LIGUE ! SEM SPAM!!! ⚠️*
-*SOMENTE USAR NO GRUPO OU BLOCK*
-
 > ⚙️ INFO BOT ⚙️ <
+⚠️ NAO LIGUE ! SEM SPAM!!! ⚠️
+SOMENTE USAR NO GRUPO OU BLOCK
 grupσ dσ вσt : https://chat.whatsapp.com/JlP3KtMS9esITV937kEJn9
 Dono do bot : https://api.whatsapp.com/send?phone=+5563991084396
 > 🎨 Figurinhas 🎨<
